@@ -3,6 +3,8 @@
 
 This is a Unraid container based on Florian Schwabs docker container that is available on CA (ydkn/cups), but enables the usage of atleast Rollo, Munbyn and Beeprt thermal printers, maybe also others.
 
+PS. If you need help setting this up with OmaPosti Pro API, send me a DM
+
 
 ## Deployment
 
