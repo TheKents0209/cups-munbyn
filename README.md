@@ -6,7 +6,7 @@ This is a Unraid container based on Florian Schwabs docker container that is ava
 
 ## Deployment
 
-Since this probably won't be published in Unraids CA you need to retrieve repository and add all the Docker variables yourself. **PLEASE NOTE THAT DRAG-AND-DROP FEATURE USES pdfcrop AUTOMATIC CROP**
+Since this probably won't be published in Unraids CA you need to retrieve repository and add all the Docker variables yourself. 
 
 You can pick the name yourself, I've gone ahead a named my container munbyn-cups
 
@@ -31,7 +31,7 @@ E.g.: Bus 003 Device 009: ID 03f0:c111 Hewlett-Packard Deskjet 1510
 
 It's the Bus 003 Device 009, so the path to is should be: /dev/bus/usb/003/009
 
-
+**PLEASE NOTE THAT DRAG-AND-DROP FEATURE USES pdfcrop AUTOMATIC CROP**
 If you want to drag and drop files into a folder then you need to create a user share called print_queue and also need to add the following paths to the container: 
 
 | Config type | Name             | Container Path | Host Path                   | Default Value               | Access Mode  |
