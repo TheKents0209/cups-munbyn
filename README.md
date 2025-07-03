@@ -31,7 +31,7 @@ E.g.: Bus 003 Device 009: ID 03f0:c111 Hewlett-Packard Deskjet 1510
 
 It's the Bus 003 Device 009, so the path to is should be: /dev/bus/usb/003/009
 
-**PLEASE NOTE THAT DRAG-AND-DROP FEATURE USES pdfcrop AUTOMATIC CROP**
+**PLEASE NOTE THAT DRAG-AND-DROP FEATURE USES pdfcrop AUTOMATIC CROP**<br/>
 If you want to drag and drop files into a folder then you need to create a user share called print_queue and also need to add the following paths to the container: 
 
 | Config type | Name             | Container Path | Host Path                   | Default Value               | Access Mode  |
