@@ -34,10 +34,11 @@ It's the Bus 003 Device 009, so the path to is should be: /dev/bus/usb/003/009
 
 If you want to drag and drop files into a folder then you need to create a user share called print_queue and also need to add the following paths to the container: 
 
-| Config type | Name               | Container Path | Host Path      | Default Value               | Access Mode |
-|-------------|--------------------|-----------------------------|-------------------------------|-----------------------------| |-|
-| Path        | Print Queue        | /print_queue              | /mnt/user/print_queue/          | /mnt/user/print_queue/             |              Read/Write  |
-| Path        | Completed prints       | /completed                 | /mnt/user/print_queue/completed/    | /mnt/user/print_queue/completed/    |      Read/Write    |       
+| Config type | Name             | Container Path | Host Path                   | Default Value               | Access Mode  |
+|-------------|------------------|----------------|-----------------------------|-----------------------------|--------------|
+| Path        | Print Queue      | /print_queue   | /mnt/user/print_queue/       | /mnt/user/print_queue/       | Read/Write   |
+| Path        | Completed prints | /completed     | /mnt/user/print_queue/completed/ | /mnt/user/print_queue/completed/ | Read/Write   |
+ 
 
 After settings these up, you can go ahead a hit Apply.
 - Then navigate to https://[HOST]:631/ (HOST is your server IP)
